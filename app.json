@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "PayCut",
+    "slug": "PayCut",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/circle.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/main.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0075FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ibizabroker.EZSplit",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e301716-c0f1-4dc9-965f-00a0f8bf309a"
+      }
+    }
+  }
+}
